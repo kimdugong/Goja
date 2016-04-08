@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:id="@+id/mainLayout" android:layout_alignParentTop="true" android:layout_width="match_parent" android:layout_height="300dp" android:orientation="vertical"
+                      android:layout_alignParentBottom="true"
+                      android:weightSum="1">
+            <RelativeLayout android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/Search_bar_logo"
+                            android:src="@drawable/goja_logo"
+                            />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/editText"
+                            android:layout_weight="1"
+                            android:singleLine="true"
+                            android:gravity="left|top"
+                            android:layout_gravity="top"/>
+
+                        <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/search"
+                            android:gravity="bottom|right"
+                            android:layout_gravity="top"
+                            android:textAlignment="center"
+                            android:hint="검색"/>
+                    </LinearLayout>
+                </TableRow>
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:id="@+id/scrollView3"
+                >
+
+                <LinearLayout android:id="@+id/ResultList" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="250dp" android:layout_marginBottom="70dp"
+                              android:gravity="fill_horizontal|center_vertical|center_horizontal|fill_vertical">
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:id="@+id/listView"
+                        android:fadeScrollbars="true"
+                        android:isScrollContainer="true"
+                        />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="바코드"
+            android:id="@+id/barcode"
+            android:layout_gravity="left|bottom"/>
+    </FrameLayout>
+
+</RelativeLayout>

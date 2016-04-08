@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="56dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/img1"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/name_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="inherit"
+                    android:textSize="16dp"
+                    android:text="상품명이 여기에 쓰여집니다."
+                    android:textColor="#000000"
+                    android:shadowColor="#763838"
+                    android:layout_weight="1.04"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/brand_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#55ab44"
+                    android:layout_gravity="right"
+                    android:textSize="10dp"
+                    android:text="제조사가 여기에 쓰여집니다."
+                    android:gravity="bottom" />
+            </LinearLayout>
+        </TableRow>
+
+    </LinearLayout>
+</LinearLayout>
