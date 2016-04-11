@@ -15,6 +15,7 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -51,6 +52,7 @@ public class ProductSearchResultActivity extends Activity {
     TextView eachcontent = null;
     Button button = null;
     Intent intent=null;
+    SearchView searchView = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +60,7 @@ public class ProductSearchResultActivity extends Activity {
         setContentView(R.layout.activity_product);
 
         //mDBManager = DBManager.getInstance(this);
+        searchView =(SearchView)findViewById(R.id.searchView);
         myDbHelper = new DataBaseHelper(this);
 
         try {
@@ -78,6 +81,7 @@ public class ProductSearchResultActivity extends Activity {
         intent = getIntent();
         Log.d("mytag", "id"+String.valueOf(intent.hasExtra("_id")));
         Log.d("mytag", "barcode"+String.valueOf(intent.hasExtra("barcode")));
+
 
 
 
