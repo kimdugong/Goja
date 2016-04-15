@@ -59,6 +59,7 @@ public class SearchActivity extends Activity {
     Button search, barcode;
     EditText editText;
     SimpleCursorAdapter mAdapter;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +72,8 @@ public class SearchActivity extends Activity {
         search = (Button) findViewById(R.id.search);
         barcode = (Button) findViewById(R.id.barcode);
         editText = (EditText) findViewById(R.id.editText);
+
+        //다른 곳에서 오는 검색 쿼리가 있는지??
 
         //바코드객체선언 아직 부르지는마
 

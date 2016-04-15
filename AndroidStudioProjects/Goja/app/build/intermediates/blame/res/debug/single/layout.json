@@ -60,6 +60,10 @@
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/activity_membercheck.xml",
+        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/src/main/res/layout/activity_membercheck.xml"
+    },
+    {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_navigation_item.xml"
     },
@@ -144,6 +148,10 @@
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/activity_join.xml",
+        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/src/main/res/layout/activity_join.xml"
+    },
+    {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_lines.xml"
     },
@@ -162,6 +170,10 @@
     {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",

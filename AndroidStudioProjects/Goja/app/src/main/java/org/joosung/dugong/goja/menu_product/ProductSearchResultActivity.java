@@ -12,15 +12,18 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.SearchView;
+import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import org.joosung.dugong.goja.DB_Manager.DataBaseHelper;
 import org.joosung.dugong.goja.R;
+import org.joosung.dugong.goja.search.SearchActivity;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -52,7 +55,7 @@ public class ProductSearchResultActivity extends Activity {
     TextView eachcontent = null;
     Button button = null;
     Intent intent=null;
-    SearchView searchView = null;
+    ImageView search = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +63,7 @@ public class ProductSearchResultActivity extends Activity {
         setContentView(R.layout.activity_product);
 
         //mDBManager = DBManager.getInstance(this);
-        searchView =(SearchView)findViewById(R.id.searchView);
+        search =(ImageView) findViewById(R.id.search);
         myDbHelper = new DataBaseHelper(this);
 
         try {
@@ -82,7 +85,13 @@ public class ProductSearchResultActivity extends Activity {
         Log.d("mytag", "id"+String.valueOf(intent.hasExtra("_id")));
         Log.d("mytag", "barcode"+String.valueOf(intent.hasExtra("barcode")));
 
-
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         //intent의 id가 무엇인지에 따라서 분기

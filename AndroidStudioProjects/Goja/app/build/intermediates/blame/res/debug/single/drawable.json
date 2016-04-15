@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
@@ -52,12 +52,12 @@
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -72,12 +72,12 @@
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/drawable/design_snackbar_background.xml"
-    },
-    {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/general_05.png",
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/src/main/res/drawable/general_05.png"
+    },
+    {
+        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
