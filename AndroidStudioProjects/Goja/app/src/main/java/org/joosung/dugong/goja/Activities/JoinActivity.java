@@ -24,7 +24,7 @@ import java.net.Socket;
  * Created by student on 2016-03-31.
  */
 public class JoinActivity extends AppCompatActivity {
-    static String ip = "70.12.111.96";
+    static String ip = "192.168.0.41";
     static int port = 10010;
     ObjectOutputStream output;
     ObjectInputStream input;
@@ -45,7 +45,7 @@ public class JoinActivity extends AppCompatActivity {
     toggleActivity toggleActivity;
 
     String id,pass,pass2,name,phone,email,birthDay;
-    int sex=1;
+    String sex="1";
     int idCall=-1;
     private static memberServerModel ms;
 
@@ -120,11 +120,11 @@ public class JoinActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch (checkedId){
                     case R.id.JoinRadiomale:
-                        sex = 1;
+                        sex = "1";
                         ms.setSex(sex);
                         break;
                     case R.id.JoinRadiofemale:
-                        sex = 2;
+                        sex = "2";
                         ms.setSex(sex);
                         break;
                 }
@@ -157,7 +157,7 @@ public class JoinActivity extends AppCompatActivity {
                 }
 
                 output = new ObjectOutputStream(socket.getOutputStream());
-                input = new ObjectInputStream(socket.getInputStream());
+                  input = new ObjectInputStream(socket.getInputStream());
 
 
                 Log.i("MyTag", input.toString() + "/" + output.toString());
