@@ -108,12 +108,12 @@
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Users/Dugong/AndroidStudioProjects/Goja/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",

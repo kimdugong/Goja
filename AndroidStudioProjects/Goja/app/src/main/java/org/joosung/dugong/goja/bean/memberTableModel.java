@@ -1,19 +1,17 @@
 package org.joosung.dugong.goja.bean;
 
-import java.io.Serializable;
-
 public class memberTableModel{
-	
-	private String id; 
+
+	private String id;
 	private String pass;
 	private String name;
 	private String birthdate;
-	private int sex;
+	private String sex;
 	private String	phone;
 	private String email;
-	private int grade;
+	private String grade;
 	private String joindate;
-		
+
 	public memberTableModel(memberServerModel msm){
 		setBirthdate(msm.getBirthdate());
 		setEmail(msm.getEmail());
@@ -24,9 +22,10 @@ public class memberTableModel{
 		setPass(msm.getPass());
 		setPhone(msm.getPhone());
 		setSex(msm.getSex());
+		setJoindate(msm.getJoindate());
 	}
 	public memberTableModel(){}
-	
+
 	public String getId() {
 		return id;
 	}
@@ -51,10 +50,10 @@ public class memberTableModel{
 	public void setBirthdate(String birthdate) {
 		this.birthdate = birthdate;
 	}
-	public int getSex() {
+	public String getSex() {
 		return sex;
 	}
-	public void setSex(int sex) {
+	public void setSex(String sex) {
 		this.sex = sex;
 	}
 	public String getPhone() {
@@ -69,10 +68,10 @@ public class memberTableModel{
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public int getGrade() {
+	public String getGrade() {
 		return grade;
 	}
-	public void setGrade(int grade) {
+	public void setGrade(String grade) {
 		this.grade = grade;
 	}
 	public String getJoindate() {
@@ -81,8 +80,8 @@ public class memberTableModel{
 	public void setJoindate(String joindate) {
 		this.joindate = joindate;
 	}
-	
-	public void setColume(memberServerModel msm){
+
+	public void setColumn(memberServerModel msm){
 		setBirthdate(msm.getBirthdate());
 		setEmail(msm.getEmail());
 		setGrade(msm.getGrade());
@@ -93,5 +92,5 @@ public class memberTableModel{
 		setPhone(msm.getPhone());
 		setSex(msm.getSex());
 	}
-	
+
 }

@@ -3,18 +3,18 @@ package org.joosung.dugong.goja.bean;
 import java.io.Serializable;
 
 public class memberServerModel implements Serializable{
-	
+
 	private static final long serialVersionUID = 1050450871;
-	private String id; 
+	private String id;
 	private String pass;
 	private String name;
 	private String birthdate;
-	private int sex;
-	private String	phone;
+	private String sex;
+	private String phone;
 	private String email;
-	private int grade;
-	private String joindate;
-	
+	private String grade="0";
+	private String joindate=new java.text.SimpleDateFormat("yyyy-M-d").format(new java.util.Date());
+
 	private int FunctionState = 0;
 
 	public memberServerModel(){}
@@ -29,7 +29,7 @@ public class memberServerModel implements Serializable{
 		setPhone(mtm.getPhone());
 		setSex(mtm.getSex());
 	}
-	
+
 	public String getId() {
 		return id;
 	}
@@ -62,11 +62,11 @@ public class memberServerModel implements Serializable{
 		this.birthdate = birthdate;
 	}
 
-	public int getSex() {
+	public String getSex() {
 		return sex;
 	}
 
-	public void setSex(int sex) {
+	public void setSex(String sex) {
 		this.sex = sex;
 	}
 
@@ -86,11 +86,11 @@ public class memberServerModel implements Serializable{
 		this.email = email;
 	}
 
-	public int getGrade() {
+	public String getGrade() {
 		return grade;
 	}
 
-	public void setGrade(int grade) {
+	public void setGrade(String grade) {
 		this.grade = grade;
 	}
 
@@ -109,7 +109,7 @@ public class memberServerModel implements Serializable{
 	public void setFunctionState(int functionState) {
 		FunctionState = functionState;
 	}
-	
+
 	public void setData(memberTableModel mtm){
 		setBirthdate(mtm.getBirthdate());
 		setEmail(mtm.getEmail());
@@ -121,6 +121,6 @@ public class memberServerModel implements Serializable{
 		setPhone(mtm.getPhone());
 		setSex(mtm.getSex());
 	}
-	
-	
+
+
 }
