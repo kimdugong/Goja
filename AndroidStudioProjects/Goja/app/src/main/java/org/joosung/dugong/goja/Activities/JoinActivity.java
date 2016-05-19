@@ -24,7 +24,7 @@ import java.net.Socket;
  * Created by student on 2016-03-31.
  */
 public class JoinActivity extends AppCompatActivity {
-    static String ip = "192.168.0.41";
+    static String ip = "52.79.124.134";
     static int port = 10010;
     ObjectOutputStream output;
     ObjectInputStream input;

@@ -45,7 +45,7 @@ public class MemberCheckActivity extends AppCompatActivity {
 
     LinearLayout.LayoutParams params;
 
-    static String ip = "192.168.0.41";
+    static String ip = "52.79.124.134";
     static int port = 10010;
 
     private toggleActivity toggle;

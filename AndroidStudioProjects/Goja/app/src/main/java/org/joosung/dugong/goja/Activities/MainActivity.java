@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity{
     static ArrayList<String> getMsg = new ArrayList<>();
     static String serverName;
 
-    static String ip = "192.168.0.41";
+    static String ip = "52.79.124.134";
     static int port = 10010;
 
     EditText idText,passText;
